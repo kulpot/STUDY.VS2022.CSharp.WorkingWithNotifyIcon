@@ -43,11 +43,6 @@ namespace WorkingWithNotifyIcon
             notifyIcon.Visible = false;
         }
 
-        private void Show_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void showToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Show();
