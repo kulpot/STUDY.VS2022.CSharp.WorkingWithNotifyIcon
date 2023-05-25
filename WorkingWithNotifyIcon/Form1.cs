@@ -43,16 +43,6 @@ namespace WorkingWithNotifyIcon
             notifyIcon.Visible = false;
         }
 
-        private void cmsiShow_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void cmsiExit_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void Show_Click(object sender, EventArgs e)
         {
             

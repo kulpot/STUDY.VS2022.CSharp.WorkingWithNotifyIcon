@@ -35,8 +35,7 @@
             this.chkTrayExit = new System.Windows.Forms.CheckBox();
             this.btnMinimizeToTray = new System.Windows.Forms.Button();
             this.btnShowBalloon = new System.Windows.Forms.Button();
-            this.cmsiShow = new System.Windows.Forms.ToolStripTextBox();
-            this.cmsiExit = new System.Windows.Forms.ToolStripTextBox();
+           
             this.showToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsNotify.SuspendLayout();
@@ -90,23 +89,7 @@
             this.btnShowBalloon.Text = "Show Balloon Tip";
             this.btnShowBalloon.UseVisualStyleBackColor = true;
             this.btnShowBalloon.Click += new System.EventHandler(this.btnShowBalloon_Click);
-            // 
-            // cmsiShow
-            // 
-            this.cmsiShow.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.cmsiShow.Name = "cmsiShow";
-            this.cmsiShow.Size = new System.Drawing.Size(100, 23);
-            this.cmsiShow.Text = "Show";
-            this.cmsiShow.Click += new System.EventHandler(this.cmsiShow_Click);
-            // 
-            // cmsiExit
-            // 
-            this.cmsiExit.AccessibleName = "Exit";
-            this.cmsiExit.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.cmsiExit.Name = "cmsiExit";
-            this.cmsiExit.Size = new System.Drawing.Size(100, 23);
-            this.cmsiExit.Text = "Exit";
-            this.cmsiExit.Click += new System.EventHandler(this.cmsiExit_Click);
+         
             // 
             // showToolStripMenuItem
             // 
@@ -146,8 +129,7 @@
         private System.Windows.Forms.Button btnMinimizeToTray;
         private System.Windows.Forms.Button btnShowBalloon;
         private System.Windows.Forms.ContextMenuStrip cmsNotify;
-        private System.Windows.Forms.ToolStripTextBox cmsiShow;
-        private System.Windows.Forms.ToolStripTextBox cmsiExit;
+        
         private System.Windows.Forms.ToolStripMenuItem showToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
     }
